@@ -20,7 +20,7 @@ This repository contains a `docker-compose.yml` file for running the Elastic Sta
 2. Navigate to the cloned directory.
 3. Run the following command:
 
-docker-compose up
+docker-compose up -d --build
 
 
 This will start the Elastic Stack with APM Server on Docker.
