@@ -8,6 +8,7 @@
 </div>
 
 This repository contains a `docker-compose.yml` file for running the Elastic Stack with APM Server on Docker.
+Configured to be ready to be used for Log, Metrics, APM, Alerting, Machine Learning, and Security (SIEM) usecases.
 
 ## Prerequisites
 
@@ -39,3 +40,6 @@ Each service is configured with its own image and environment variables.
 ## License
 
 This repository is licensed under the MIT License.
+
+
+This repository contains part of code from  [sherifabdlnaby/elastdocker](https://github.com/sherifabdlnaby/elastdocker)
